@@ -1,0 +1,12 @@
+
+** ASM algorithm notes file **
+
+-> by default first four parameters of the function are passed to the registers
+-> Remaining algorithms are pushed on the stack (right-to-left order)
+
+Registers to which first 4 parameters are passed due to data type:
+- int	- RCX, RDX, R8, R9
+- float - XMM0 - XMM3
+- _m128 types are never passed by immediate value. Instead, a pointer is passed to the memory allocated
+by the caller.
+
