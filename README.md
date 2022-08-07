@@ -1,3 +1,4 @@
 # RabinKarpAlgorithm_ASM
-Assembler implementation of Rabin-Karp algorithm 
-**Purpose was to compare execution time of C# and Assembler implementations of RK algorithm.**
+
+## About
+Project is a Assembler implementation of Rabin-Karp algorithm, and was used in comparision of time execution with C# implementation of this algorithm.
